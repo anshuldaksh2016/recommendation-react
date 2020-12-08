@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: url("https://i.gadgets360cdn.com/large/youtube_1581315068339.jpg?downsize=950:*&output-quality=80"); 
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+/* background-color: #F5F3FF; */
+  
+}
+.selection-panel {
+  max-width: 600px;
+  margin: 3rem auto auto auto;
+  
+}
+
+.header{
+  color: #4C1D95;
+  color: white;
+}
+
+.selection-panel button {
+  padding: 0.8rem;
+  margin: 1.5rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  outline-style: none;
+  box-shadow: 0 6px 6px #666;
+  border: 1px solid #ccc;
+  background-color: #4C1D95;
+  color: white;
+}
+
+button:hover {
+  background-color: #A78BFA;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  background-color: #4C1D95;
+  border-radius: 10px;
+  color: white;
+}
